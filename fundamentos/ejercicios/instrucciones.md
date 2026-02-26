@@ -5,7 +5,7 @@
 ### Ejercicio 1 — Ficha de empleado
 
 - Declarar variables para almacenar el nombre, apellido, edad, salario y si está activo en la empresa (boolean).
-- Luego imprimir cada una con su tipo de dato usando type().
+- Luego imprimir cada una con su tipo de dato usando `type()`.
 
 ### Ejercicio 2 — Conversión de tipos
 
@@ -16,7 +16,7 @@
 
 Tenés un producto con nombre (str), precio unitario (float), stock disponible (int) y si está disponible para venta (bool).
 
-- Asignar valores y mostrar una ficha de producto formateada con print().
+- Asignar valores y mostrar una ficha de producto formateada con `print()`.
 
 ### Ejercicio 4 — Swap de variables
 
@@ -28,9 +28,9 @@ En un sistema de turnos, el turno A y el turno B necesitan intercambiar sus hora
 
 Simular una validación básica:
 
-- recibir un valor por input e intentar convertirlo a int, luego a float.
+- recibir un valor por input e intentar convertirlo a `int`, luego a `float`.
 - Mostrar qué tipo de dato es realmente lo que el usuario ingresó.
-- **Pista:** usá un bloque try/except básico, aunque aún no lo hayas visto formalmente. Investigarlo es parte del ejercicio.
+- **Pista:** usá un bloque `try/except` básico, aunque aún no lo hayas visto formalmente. Investigarlo es parte del ejercicio.
 
 -
 
@@ -62,7 +62,7 @@ Simular una validación básica:
 En un depósito hay 500 unidades de un producto. Se deben empaquetar en cajas de 24 unidades.
 
 - Calcular cuántas cajas completas se pueden armar y cuántas unidades sobran.
-- Usar operadores // y %.
+- Usar operadores `//` y `%`.
 
 ### Ejercicio 10 — Calculadora de propina
 
@@ -85,7 +85,7 @@ Simular el login de un sistema interno.
 Una empresa requiere que el candidato tenga entre 25 y 45 años, más de 2 años de experiencia y no tener otro empleo activo.
 
 - Pedir los datos e informar si el candidato es elegible.
-- Usar operadores and, or, not.
+- Usar operadores `and`, `or`, `not`.
 
 ### Ejercicio 13 — Clasificador de notas
 
@@ -102,38 +102,38 @@ Una empresa requiere que el candidato tenga entre 25 y 45 años, más de 2 años
 ### Ejercicio 15 — Comparador de precios
 
 - Ingresar el precio de un mismo producto en tres tiendas distintas.
-- Usando solo operadores de comparación y lógicos (sin listas ni funciones built-in como min()), determinar cuál tienda tiene el precio más bajo y mostrarlo.
+- Usando solo operadores de comparación y lógicos (sin listas ni funciones built-in como `min()`), determinar cuál tienda tiene el precio más bajo y mostrarlo.
 
 -
 
-## BLOQUE 4 — Input/Output, f-strings y format() (Ejercicios 16–20)
+## BLOQUE 4 — `Input/Output`, `f-strings` y `format()` (Ejercicios 16–20)
 
 ### Ejercicio 16 — Recibo de pago formateado
 
 - Generar un recibo de pago con nombre del empleado, cargo, sueldo bruto, descuentos y sueldo neto.
-- Todo alineado y formateado prolijamente usando f-strings.
+- Todo alineado y formateado prolijamente usando `f-strings`.
 - Los números deben mostrarse con separador de miles y dos decimales.
 
 ### Ejercicio 17 — Tabla de conversión de moneda
 
 - Ingresar un monto en pesos argentinos y un tipo de cambio.
-- Mostrar la conversión a USD, EUR y BRL en una tabla formateada con columnas alineadas usando format() o f-strings con especificadores de ancho.
+- Mostrar la conversión a USD, EUR y BRL en una tabla formateada con columnas alineadas usando `format()` o `f-strings` con especificadores de ancho.
 
 ### Ejercicio 18 — Generador de mail corporativo
 
 - Pedir nombre y apellido de un nuevo empleado y el dominio de la empresa.
 - Generar automáticamente su mail corporativo en formato nombre.apellido@empresa.com (todo en minúsculas, sin espacios).
-- Mostrar un mensaje de bienvenida usando f-string multilínea.
+- Mostrar un mensaje de bienvenida usando `f-string` multilínea.
 
 ### Ejercicio 19 — Resumen de ventas del día
 
 - Ingresar las ventas de 3 productos distintos (nombre y monto).
 - Calcular el total del día, el promedio por producto y cuál fue el más vendido.
-- Mostrar un reporte final bien presentado usando f-strings.
+- Mostrar un reporte final bien presentado usando `f-strings`.
 
 ### Ejercicio 20 — Simulador de cotización
 
 Una pequeña empresa necesita generar cotizaciones.
 
 - Pedir: nombre del cliente, descripción del servicio, precio base, cantidad de horas estimadas y costo por hora adicional.
-- Calcular el total y mostrar una cotización profesional formateada con todos los datos, incluyendo fecha actual (investigar datetime.date.today()).
+- Calcular el total y mostrar una cotización profesional formateada con todos los datos, incluyendo fecha actual (investigar `datetime.date.today()`).
