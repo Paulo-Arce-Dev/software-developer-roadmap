@@ -32,7 +32,7 @@ Simular una validación básica:
 - Mostrar qué tipo de dato es realmente lo que el usuario ingresó.
 - **Pista:** usá un bloque `try/except` básico, aunque aún no lo hayas visto formalmente. Investigarlo es parte del ejercicio.
 
--
+---
 
 ## BLOQUE 2 — Operadores Aritméticos (Ejercicios 6–10)
 
