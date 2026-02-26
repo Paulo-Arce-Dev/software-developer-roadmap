@@ -10,7 +10,8 @@
 ### Ejercicio 2 — Conversión de tipos
 
 - Recibir por input el precio de un producto (como string) y la cantidad comprada.
-- Convertirlos al tipo correcto y calcular el total. Mostrar el resultado indicando el tipo final de cada variable.
+- Convertirlos al tipo correcto y calcular el total.
+- Mostrar el resultado indicando el tipo final de cada variable.
 
 ### Ejercicio 3 — Inventario básico
 
