@@ -69,7 +69,7 @@ En un depósito hay 500 unidades de un producto. Se deben empaquetar en cajas de
 - Ingresar el monto de una cuenta en restaurante y el porcentaje de propina deseado.
 - Mostrar el monto de la propina, el total a pagar y cuánto le toca a cada persona si el gasto se divide entre N comensales (también ingresado por input).
 
--
+---
 
 ## BLOQUE 3 — Operadores de Comparación y Lógicos (Ejercicios 11–15)
 
@@ -104,7 +104,7 @@ Una empresa requiere que el candidato tenga entre 25 y 45 años, más de 2 años
 - Ingresar el precio de un mismo producto en tres tiendas distintas.
 - Usando solo operadores de comparación y lógicos (sin listas ni funciones built-in como `min()`), determinar cuál tienda tiene el precio más bajo y mostrarlo.
 
--
+---
 
 ## BLOQUE 4 — `Input/Output`, `f-strings` y `format()` (Ejercicios 16–20)
 
